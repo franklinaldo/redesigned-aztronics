@@ -1,0 +1,129 @@
+@import url(variables.css);
+
+@media (min-width: 951px) {
+
+  /****** Checkout - Bank Transfer ******/
+
+  .bank_transfer_details .row {
+    justify-content: flex-start;
+  }
+
+  .bank_transfer_details .row .btn-primary{
+    flex-grow: 1;
+  }
+
+  .bank_transfer_details .row .btn-primary:not(:last-child){
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 950px) {
+  .textbox_left {
+    flex-grow: 1;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .textbox_right {
+    flex-grow: 1;
+    margin-left: 0rem;
+    width: 100%;
+  }
+
+  /* .card__container:nth-child(3n) {
+    margin-right: 0;
+  } */
+
+
+  /****** Checkout page ******/
+
+  .account_option {
+    margin-right: 2rem;
+  }
+  .product_details {
+    margin-left: 2rem;
+  }
+
+  /****** Order Sumamry ******/
+
+  .order_summary_body_container {
+    width: 50vw;
+  }
+
+
+  /****** Bank Transfer ******/
+  .bank_transfer_details .row .btn-primary {
+    width: 100%;
+  }
+
+  .bank_transfer_details .row .btn-primary:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .bank_transfer_details .row p {
+    font-size: var(--text-md);
+  }
+
+}
+
+@media screen and (max-width: 576px) { 
+    
+  .textbox_left {
+    flex-grow: 1;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .textbox_right {
+    flex-grow: 1;
+    margin-left: 0rem;
+    width: 100%;
+  }
+
+  .card__container:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .checkout_cart_box {
+    width: 100%;
+  }
+  /****** Checkout page ******/
+
+  .vl {
+    display: none;
+  }
+
+  .product_details {
+  display: none;
+  }
+
+  .account_option {
+    margin-right: 0rem;
+  }
+
+  .mobile_price {
+    display: block;
+  }
+
+  /****** Order Sumamry ******/
+
+  .order_summary_body_container {
+    width: 80vw;
+  }
+
+  /****** Bank Transfer ******/
+  .bank_transfer_details .row .btn-primary {
+    width: 100%;
+  }
+
+  .bank_transfer_details .row .btn-primary:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .bank_transfer_details .row p {
+    font-size: var(--text-md);
+  }
+
+}

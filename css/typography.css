@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --font-primary: 'Helvetica','Roboto', sans-serif;
+    --text-base-size: 1rem;
+    --text-scale-ratio: 1.2;
+    --text-xxl: 1.953rem;
+    --text-xl: 1.563rem;
+    --text-lg: 1.25rem;
+    --text-md: 1rem;
+    --text-sm: 0.8rem;
+    --text-xs: 0.64rem;
+  }

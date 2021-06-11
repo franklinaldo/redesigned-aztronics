@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/96afffee50.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/layout.mobile.css">
+
+  <title>Aztronics</title>
+</head>
+
+
+<body class="stack">
+
+  <nav class="cluster navbar">
+
+    <div class="nav_centre_checkout">
+      <a href="#home">
+        <img src="../img/aztronics_logo.png" class="logo_checkout" />
+      </a>
+    </div>
+
+
+  </nav>
+  <!-- TODO: change font -->
+  <div class="body_container">
+    
+    <div class="breadcrumb">
+      <a href="./product_detail.html"> Cart </a> > <a href="./checkout.html">Checkout </a> > 
+      <a href="./guest_checkout.html"> Contact & Billing </a> >
+      <a href="./delivery_method.html"> Delivery Method </a> > 
+      <a href="./shipping_address.html"> Shipping Address </a> > <a>Payment Method </a>
+    </div>
+
+    <div class="row">
+      <h2 class="checkout_process_label">Checkout</h2>
+      <h2 class="mobile_price"> $140.00</h2>
+    </div>
+
+    <div class="checkout_details">
+      <div class="account_option">
+        <a id="bank_trf" class="btn btn-secondary-checkout">
+          Bank Transfer
+        </a>
+        <a id="paypal" class="btn btn-secondary-checkout">
+          PayPal (Credit/Debit Card)
+        </a>
+        <a id="cod" class="btn btn-secondary-checkout">
+          Cash on Delivery
+        </a>
+
+        <div class="row_button_checkout">
+          <a href="./shipping_address.html" class="btn btn-checkout-bottom-secondary">
+              Back to Shipping Address
+          </a>
+          <a id="order_summary_button" href="" class="btn btn-checkout-bottom-primary">
+            Order Summary
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="vl">
+      </div>
+
+      <div class="product_details">
+        <div class="checkout_product_details">
+
+          <div class="product_detail_cart">
+
+            <img class="product_image_cart" src="../img/products/Image 18.png" />
+            <div class="product_description_cart">
+              <div class="row">
+                <h4>Raspberry Pi 4:</h4>
+                <h4>$140.00</h4>
+              </div>
+              <p class="checkout_product_desc">4 GB RAM, 32GB Micro SD, NOOBS</p>
+              <h5>Qty: 2</h5>
+            </div>
+          </div>
+
+          <!-- Transasction details -->
+          <div class="grey_line"></div>
+
+          <div class="row">
+            <h5>Subtotal:</h5>
+            <h5>$140.00</h5>
+          </div>
+          <div class="row">
+            <h5>Shipping:</h4>
+          </div>
+          <div class="row">
+            <p class="checkout_product_desc">AUSPOST Small Box</p>
+            <h5>+$8.80</h4>
+          </div>
+          <div class="row">
+            <h5>Ship to:</h4>
+          </div>
+          <div class="row">
+            <p class="checkout_product_desc">Bob Smith <br />
+              2301/175 La Trobe Street <br />
+              Melbourne 3000 <br />
+              Australia <br />
+            </p>
+          </div>
+          <div class="row">
+            <h5>Discount Code:</h5>
+          </div>
+          <div class="row">
+            <p class="checkout_product_desc">EASTER20</p>
+            <h5>Free Shipping</h5>
+          </div>
+          <div class="row">
+            <h5>Voucher Code:</h5>
+            <h5>-</h5>
+          </div>
+
+          <div class="grey_line"></div>
+          <div class="row">
+            <h4>Total:</h4>
+            <h4>$140.00</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./javascript/payment_method.js"></script>
+
+</html>

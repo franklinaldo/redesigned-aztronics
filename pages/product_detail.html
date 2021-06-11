@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/96afffee50.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/layout.mobile.css">
+
+  <title>Aztronics</title>
+</head>
+
+<body class="stack">
+
+  <nav class="cluster navbar">
+
+    <div class="nav_category_mobile">
+      <a href="#category" class="btn btn-category">Category</a>
+    </div>
+    <div class="nav_left">
+      <a href="../index.html">
+        <img src="../img/aztronics_logo.png" class="logo" />
+      </a>
+    </div>
+
+    <div class="nav_centre">
+      <div class="nav_category">
+        <a href="#category" class="nav_category btn btn-category">Category</a>
+      </div>
+      <div class="nav_search_container">
+        <form class="search_form">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="nav_right">
+      <a href="#compare" class="nav_compare pad-left-2">
+        <!-- <i class="fas fa-balance-scale"></i> -->
+        <img src="/img/icons/compare.svg" class="icon"/>
+      </a>
+      <a href="#favourite" class="nav_favourite pad-left-2">
+        <img src="/img/icons/fav.svg" class="icon"/>
+      </a>
+      <a id="cart_button" href="#cart" class="nav_cart pad-left-2">
+        <img src="/img/icons/cart.svg" class="icon"/>
+      </a>
+      <a href="#account" class="nav_account pad-left-2">
+        <img src="/img/icons/account.svg" class="icon"/>
+      </a>
+    </div>
+  </nav>
+
+  <!-- TODO: change font -->
+  <div class="body_container">
+
+    <div class="breadcrumb">
+      <p>Home > Computer > Mini Computer > Raspberry Pi 4</h5>
+    </div>
+
+    <div class="stack">
+      
+      <div class="product_container">
+        
+        <div class="img_container">
+          <img class="product_image mui-shadow" src="../img/products/raspberry_pi.png" />
+        </div>
+
+        <div class="product_desc">
+          <h2 class="pad-bottom-quarter">$70.00</h2>
+          <p class="product_detail_name">Raspberry Pi 4</p>
+          <p class="product_stock">In Stock: 68</p>
+  
+          <div class="quantity_button">
+            <label>Qty:</label>
+            <a class="btn" id="substract">-</a>
+            <input id="qtyInput" min="1" value="1">
+            <a id="add">+</a>
+          </div>
+  
+          <div class="compare_cart_button">
+            <a class="btn btn-secondary-product-detail">
+              <div class="row">
+                <p>Compare</p>
+                <img src="../img/icons/compare_plus.svg" />
+              </div>
+            </a>
+            
+            <a class="btn btn-secondary-product-detail">
+              <div class="row">
+                <p>Add to Cart</p>
+                <img src="../img/icons/cart_plus.svg" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="product_tab">
+      <div class="tab_option">
+        <li data-tab-target="#description" class="tab active">Description</li>
+        <li data-tab-target="#features" class="tab">Features</li>
+        <li data-tab-target="#specification" class="tab">Specification</li>
+      </div>
+      <div class="tab_content">
+        <div id="description" class="active" data-tab-content>
+          The Raspberry Pi 4 Single Board Computer 4GB is the latest product from Raspberry Pi. The speed and
+          performance of the new Raspberry Pi 4 is a step up from earlier models. For the first time, Raspberry Pi has
+          built a complete desktop experience. Whether you’re editing documents, browsing the web with a bunch of tabs
+          open, juggling spreadsheets or drafting a presentation, you’ll find the experience smooth and very
+          recognisable — but on a smaller, more energy-efficient and much more cost-effective machine. With the new
+          model you can run two monitors at once in 4K. With the added feature of no fans the Raspberry Pi 4 is
+          energy-efficient and runs silently and uses far less power than other computers. Another new feature is the
+          upgraded USB capacity: along with two USB 2 ports you’ll find two USB 3 ports, which can transfer data up to
+          ten times faster.
+        </div>
+
+        <div id="features" data-tab-content>
+          <ul>
+            <li>1.5GHz quad-core ARM Cortex-A72 CPU</li>
+            <li>VideoCore VI graphics</li>
+            <li>4kp60 HEVC decode</li>
+            <li>True Gigabit Ethernet</li>
+            <li>2 × USB 3.0 and 2 × USB 2.0 ports</li>
+            <li>2 × micro-HDMI ports (1 × 4kp60 or 2 × 4kp30)</li>
+            <li>USB-C for input power, supporting 5V 3A operation</li>
+          </ul>
+        </div>
+
+        <div id="specification" data-tab-content>
+          <ul>
+            <li>Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz</li>
+            <li>4GB LPDDR4-2400 SDRAM (depending on model)</li>
+            <li>2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE</li>
+            <li>Gigabit Ethernet</li>
+            <li>2 USB 3.0 ports; 2 USB 2.0 ports.</li>
+            <li>Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)</li>
+            <li>2 × micro-HDMI ports (up to 4kp60 supported)</li>
+            <li>2-lane MIPI DSI display port</li>
+            <li>2-lane MIPI CSI camera port</li>
+            <li>4-pole stereo audio and composite video port</li>
+            <li>H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)</li>
+            <li>OpenGL ES 3.0 graphics</li>
+            <li>Micro-SD card slot for loading operating system and data storage</li>
+            <li>5V DC via USB-C connector (minimum 3A*)</li>
+            <li>5V DC via GPIO header (minimum 3A*)</li>
+            <li>Power over Ethernet (PoE) enabled (requires separate PoE HAT)</li>
+            <li>Operating temperature: 0 – 50 degrees C ambient</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="horizontal-separator"></div>
+    <!-- Other Cards -->
+
+    <div class="recently_viewed">
+      <h3 class="section_label"> Recently Viewed</h3>
+      <div class="card_collections" id="people_recent_view"></div>
+    </div>
+
+    <div class="horizontal-separator"></div>
+
+    <div class="footer">
+
+      <div class="company_info">
+        
+        <img src="../img/aztronics.svg" class="logo_footer">
+        <p>
+          170 Sturt Street
+        <br>
+          Adelaide 5000, South Australia
+        </p>
+        <div class="row">
+          <p>
+            Telephone:<br>
+            (08) 8212 6212
+          </p>
+  
+          <p>
+            Fax:<br>
+            (08) 8212 4212
+          </p>
+        </div>
+      </div>
+
+      <div class="footer_detail">
+        <h4>Information</h4>
+        <p>About Us</p>
+
+        <p>Calculator</p>
+
+        <p>Privacy Policy</p>
+
+        <p>Terms & Conditions</p>
+      </div>
+
+      <div class="footer_detail">
+        <h4>Support</h4>
+        <p>Contact Us</p>
+
+        <p>Returns</p>
+      </div>
+
+      <div class="footer_detail">
+        <h4>Extras</h4>
+        <p>Gift Vouchers</p>
+
+        <p>Newsletter</p>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© 2021 Aztronics Pty Ltd. All rights reserved.</p>
+    </div>
+
+
+  </div>
+  
+  <div id="cart_pop" class="cart_pop active">
+    <div id="opacity_cart" class="opacity_cart">
+
+    </div>
+
+    <div class="checkout_cart_box">
+      <h3>
+        Cart
+      </h3>
+
+      <div class="product_detail_cart">
+        <img class="product_image_cart" src="../img/products/Image 18.png">
+        <div class="product_description_cart">
+          <h4>Raspberry Pi 4</h4>
+          <p>4 GB RAM, 32GB Micro SD, NOOBS</p>
+
+          <div class="quantity_button">
+            <a class="btn" id="substract">-</a>
+            <input id="qtyInput" min="1" value="1">
+            <a id="add">+</a>
+          </div>
+
+        </div>
+
+        <div class="product_price_cart">
+          <h4>$140.00</h4>
+        </div>
+      </div>
+
+      <div class="horizontal-separator"></div>
+
+      <div class="coupon_box">
+        <div class="row">
+          <input type="text" placeholder="Enter Discount or Voucher Code">
+          <a class="btn btn-secondary-product-detail">Apply</a>
+        </div>
+      </div>
+
+      <div class="horizontal-separator"></div>
+
+      <div class="row">
+        <h5>Discount Code:</h5>
+      </div>
+      <div class="row">
+        <p class="checkout_product_desc">EASTER20</p>
+        <h5>Free Shipping</h5>
+      </div>
+
+      <div class="horizontal-separator"></div>
+
+      <box class="checkout_button">
+        <h4>Total: $140.00</h4>
+        <div class="row_button_checkout">
+          <a class="btn btn-checkout-bottom-secondary" href="/pages/product_detail.html"> Continue to Shop</a>
+          <a class="btn btn-checkout-bottom-primary" href="./checkout.html">Checkout</a>
+        </div>
+      </box>
+    </div>
+  </div>
+
+</body>
+
+
+
+<script src="/pages/javascript/product_detail.js"></script>
+
+</html>

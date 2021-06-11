@@ -1,0 +1,12 @@
+:root {
+    --overlay-color: rgba(24, 39, 51 , 0.85);
+    --colour-primary: #003d7f;
+    --colour-secondary: white;
+    --colour-accent: #e74c3c;
+    --colour-icon-border: rgb(223, 223, 223);
+    --colour-light-black: rgb(112, 112, 112);
+    --colour-black: rgb(000, 000, 000);
+    --colour-checkout-button-primary: rgb(54, 145, 233);
+    --colour-checkout-button-secondary: rgb(225, 225, 225);
+    --colour-text-secondary: rgb(51,52,53);
+}
